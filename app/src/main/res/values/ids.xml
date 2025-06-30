@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btn_pay" type="id"></item>
+    <item name="t1" type="id" />
+    <item name="et_custom_options" type="id" />
+</resources>

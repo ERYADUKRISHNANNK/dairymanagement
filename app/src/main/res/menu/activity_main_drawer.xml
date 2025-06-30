@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_location_city_24"
+            android:title="View near shop" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_baseline_shop_24"
+            android:title="View Product and Book" />
+        <item
+            android:id="@+id/booking"
+            android:icon="@drawable/ic_baseline_backup_table_24"
+            android:title="View my Booking" />
+        <item
+            android:id="@+id/cart"
+            android:icon="@drawable/ic_baseline_shopping_cart_24"
+            android:title="View my Cart" />
+
+        <item
+            android:id="@+id/o_status"
+            android:icon="@drawable/ic_baseline_shopping_cart_24"
+            android:title="View Order status" />
+        <item
+            android:id="@+id/feed"
+            android:icon="@drawable/ic_baseline_feedback_24"
+            android:title="Send FeedBack" />
+
+        <item
+            android:id="@+id/comp"
+            android:icon="@drawable/ic_baseline_comment_24"
+            android:title="Send Complaint and Reply" />
+        <item
+            android:id="@+id/noti"
+            android:icon="@drawable/ic_baseline_notifications_24"
+            android:title="View Notification" />
+        <item
+            android:id="@+id/chat"
+            android:icon="@drawable/ic_baseline_question_answer_24"
+            android:title="Chat with Farmer" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_baseline_exit_to_app_24"
+            android:title="Logout" />
+
+
+    </group>
+
+
+</menu>

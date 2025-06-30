@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dairymanagement">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/uu"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/uu"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Dairymanagement"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".view_o_status"
+            android:exported="false" />
+        <activity
+            android:name=".custom_o_status"
+            android:exported="false" />
+        <service android:name=".LocationServiceno"/>
+
+        <activity
+            android:name=".chatuser"
+            android:exported="false" />
+        <activity
+            android:name=".forgotpassword"
+            android:exported="false" />
+        <activity
+            android:name=".farmerhome2"
+            android:exported="false" />
+        <activity
+            android:name=".userhome2"
+            android:exported="false"
+            android:label="@string/title_activity_userhome2"
+            android:theme="@style/Theme.Dairymanagement.NoActionBar" />
+        <activity
+            android:name=".regdelboy"
+            android:exported="false" />
+        <activity
+            android:name=".delviewnotification"
+            android:exported="false" />
+        <activity
+            android:name=".custom_cart"
+            android:exported="false" />
+        <activity
+            android:name=".viewmycart"
+            android:exported="false" />
+        <activity
+            android:name=".custom_book"
+            android:exported="false" />
+        <activity
+            android:name=".viewmybookingproducts"
+            android:exported="false" />
+        <activity
+            android:name=".customnoti"
+            android:exported="false" />
+        <activity
+            android:name=".custom_reply"
+            android:exported="false" />
+        <activity
+            android:name=".PaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".reply"
+            android:exported="false" />
+        <activity
+            android:name=".custom_track"
+            android:exported="false" />
+        <activity
+            android:name=".custom_buyprod"
+            android:exported="false" />
+        <activity
+            android:name=".chatwithadmin"
+            android:exported="false" />
+
+        <service android:name=".LocationService" />
+
+        <activity
+            android:name=".viewmybooking"
+            android:exported="false" />
+        <activity
+            android:name=".chatfarmer"
+            android:exported="false" />
+        <activity
+            android:name=".complaint"
+            android:exported="false" />
+        <activity
+            android:name=".viewnearshop"
+            android:exported="false" />
+        <activity
+            android:name=".userhome"
+            android:exported="false" />
+        <activity
+            android:name=".Test"
+            android:exported="false" />
+        <activity
+            android:name=".Test2"
+            android:exported="false" />
+        <activity
+            android:name=".dhome"
+            android:exported="false" />
+        <activity
+            android:name=".shome"
+            android:exported="false" />
+        <activity
+            android:name=".custom2"
+            android:exported="false" />
+        <activity
+            android:name=".custom_product"
+            android:exported="false" />
+        <activity android:name=".fhome" />
+        <activity android:name=".login" />
+        <activity android:name=".updatestatus" />
+        <activity android:name=".delviewnotifi" />
+        <activity android:name=".viewallocatedwork" />
+        <activity android:name=".viewcart" />
+        <activity android:name=".viewmore" />
+        <activity android:name=".viewnotification" />
+        <activity android:name=".feedback" />
+        <activity android:name=".viewstatus" />
+        <activity android:name=".viewbuyproduct" />
+        <activity android:name=".viewpolicy" />
+        <activity android:name=".adminnotification" />
+        <activity android:name=".manangeleave" />
+        <activity android:name=".addleavenotification" />
+        <activity android:name=".viewproduct" />
+        <activity android:name=".vieworderverify" />
+        <activity android:name=".manageproducct" />
+        <activity android:name=".payment" />
+        <activity android:name=".vieworder" />
+        <activity android:name=".addproduct" />
+        <activity android:name=".addmilk" />
+        <activity android:name=".registerfarmer" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
